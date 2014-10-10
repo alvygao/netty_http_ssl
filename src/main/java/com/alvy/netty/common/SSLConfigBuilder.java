@@ -1,4 +1,4 @@
-package com.gw.ifs.services.common;
+package com.alvy.netty.common;
 
 import java.io.IOException;
 import java.io.InputStream;

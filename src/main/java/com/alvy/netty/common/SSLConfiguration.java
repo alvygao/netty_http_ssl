@@ -1,4 +1,4 @@
-package com.gw.ifs.services.common;
+package com.alvy.netty.common;
 
 public class SSLConfiguration {
 

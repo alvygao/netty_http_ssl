@@ -1,4 +1,4 @@
-package com.gw.ifs.services.server;
+package com.alvy.netty.server;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.nio.NioEventLoopGroup;

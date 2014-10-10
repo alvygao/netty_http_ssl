@@ -1,4 +1,4 @@
-package com.gw.ifs.services.server;
+package com.alvy.netty.server;
 
 import java.io.FileInputStream;
 import java.security.KeyStore;
@@ -7,8 +7,8 @@ import javax.net.ssl.KeyManagerFactory;
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManagerFactory;
 
-import com.gw.ifs.services.common.SSLConfigBuilder;
-import com.gw.ifs.services.common.SSLConfiguration;
+import com.alvy.netty.common.SSLConfigBuilder;
+import com.alvy.netty.common.SSLConfiguration;
 
 public class SSLContextProvider {
 

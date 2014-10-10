@@ -1,4 +1,4 @@
-package com.gw.ifs.services.server;
+package com.alvy.netty.server;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
@@ -18,8 +18,8 @@ import org.springframework.mock.web.MockServletContext;
 import org.springframework.web.context.support.XmlWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
 
-import com.gw.ifs.services.common.SSLConfigBuilder;
-import com.gw.ifs.services.common.SSLConfiguration;
+import com.alvy.netty.common.SSLConfigBuilder;
+import com.alvy.netty.common.SSLConfiguration;
 
 public class DispatcherServletChannelInitializer extends
 		ChannelInitializer<SocketChannel> {

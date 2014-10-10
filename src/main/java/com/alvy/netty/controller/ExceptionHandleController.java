@@ -1,4 +1,4 @@
-package com.gw.ifs.services.controller;
+package com.alvy.netty.controller;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
-import com.gw.ifs.services.server.ErrorResponse;
+import com.alvy.netty.server.ErrorResponse;
 
 @ControllerAdvice
 public class ExceptionHandleController {

@@ -1,4 +1,4 @@
-package com.gw.ifs.services.server;
+package com.alvy.netty.server;
 
 import static io.netty.handler.codec.http.HttpResponseStatus.INTERNAL_SERVER_ERROR;
 import static io.netty.handler.codec.http.HttpVersion.HTTP_1_1;
